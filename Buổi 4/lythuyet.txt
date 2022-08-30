@@ -1,0 +1,53 @@
+buổi 4: Layout- Bố cục của trang web
++ sizing elements ( width, height)
++ position{}
+
+cách 1: position : relative
+   + xác định vị trí của ptu theo vị trí ban đầu của nó, lay chinh no lam goc toa do
+   + không ảnh hưởng đến các yếu tố khác
+
+cách 2: position : absolute
+   + xác định vị trí của ptu theo vị trí của thùng chứa( container), phu thuoc vao elements cha (ong noi, cu) gan nhat co thuoc tinh position.
+   + ảnh hưởng đế các phtu khác trong trang
+   + thùng chứa mặc định: body
+
+cách 3: position : fixed
+  + xác định vị trí của ptu dựa trên viewport ( khung nhìn)
+
+cách xác định kích thước cho ptu:
+  +width, height
+  +top, right, bottom, left
+
+units:
+  +absolute unit: đơn vị tuyệt đối = px
+  + relative unit:
+      %: so với cùng chứa nó
+      em, rem: so font-size, 1rem= 16px
+      vw: viewport width
+      vh: viewport height
+
+flexbox - flexible box layout
+tạo bố cục nhanh: sắp xếp, điều chỉnh các ptu theo một hướng nhất định
+  display: flex
+  flex-direction: kiểm soát hướng cần điều chỉnh
+
+  cawnc hỉnh các mục (item): align-items
+     2 flex ( trục chính là hướng ta chọn )
+     - main axis: trục chính
+     - cross axis: trục phụ
+     direction = rơ => main:x, cross:y
+
+     justify-content = căn chỉnh các mục theo trụ chính
+     align-items = căn chỉnh các mục theo trục phụ
+
+     flex-wrap: wrap
+     align-content: = điều chỉnh khi flex > 2 dòng
+     align-slef = ghi de len align-items
+
+     sizing items:
+       flex-basic:
+
+
+
+
+

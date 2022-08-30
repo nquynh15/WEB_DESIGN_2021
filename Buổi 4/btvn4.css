@@ -1,0 +1,137 @@
+#box1 {
+  background-color: rgb(46, 194, 127);
+  height: 300px;
+}
+.avatar {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 170px;
+  left: 100px;
+  background-image: url(https://www.okchicas.com/wp-content/uploads/2020/08/Baby-es-una-corgi-adorable-que-te-encantar%C3%A1-11.jpg);
+  background-size: 100px auto;
+  image-rendering: crisp-edges;
+}
+.name {
+  width: 300px;
+  font-family: "Lucida Sans Unicode";
+  font-size: 34px;
+  position: absolute;
+  top: 50px;
+  left: 210px;
+}
+.icon {
+  font-size: 30px;
+  position: absolute;
+  top: 140px;
+  right: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  width: 40%;
+  height: 30px;
+  padding: 35px;
+  margin-left: 30%;
+  background-color: rgb(66, 165, 62);
+  border-radius: 50%;
+  color: rgb(4, 4, 122);
+  font-family: Verdana;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#box2 {
+  width: 100%;
+  height: 1500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container1 {
+  width: 50%;
+}
+.header1 {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 0;
+  background-color: rgb(10, 90, 73);
+  border-radius: 3px;
+  color: white;
+  font-family: Verdana;
+  font-size: 50px;
+  text-align: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.item1 {
+  margin-top: 20px;
+  border: 3px solid rgb(10, 90, 73);
+  background-color: rgb(25, 110, 92);
+  font-family:  Tahoma;
+  font-size: 23px;
+  align-items: flex-start;
+  border: 5px solid: #ccc;
+  width: 30%;
+  height: 380px;
+}
+.container2 {
+  width: 28%;
+}
+.header2{
+  width: 100%;
+  height: 45px;
+  padding: 4px 2px;
+  background-color: rgb(30, 129, 133);
+  border-radius: 3px;
+  color: white;
+  font-family: Verdana;
+  text-align: center;
+  border: 5px solid: #ccc;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+.item2 {
+  width: 100%;
+  height: 120px;
+  border: 3px solid rgb(139, 139, 139);
+  align-items: flex-start;
+  border: 5px solid: #ccc;
+  margin: 5px;
+}
+.image {
+  float: left;
+  margin-left: 15px;
+  margin-right: 20px;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+}
+.infor {
+  font-size: 18px;
+  font-family: Verdana;
+  margin-left: 15px;
+  margin-top: 5%;
+}
+.letter {
+  font-size: 16px;
+  font-family: Verdana;
+}
+#footer {
+  background-color: rgb(3, 65, 105);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 240px;
+  color: wheat;
+  font-size: 45px;
+  font-family: Verdana;
+}

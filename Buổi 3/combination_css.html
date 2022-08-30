@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container .hello-class{
+        color: red;
+    }
+    .container > div {
+        color: aqua;
+    }
+    /*p#hola-id{
+        color: blue;
+    }*/
+    .container,
+    .hello-class,
+    #hola-id {
+        background-color: aquamarine;
+    }
+</style>
+
+<body>
+    <div class="contaier">
+        <div class="paragraph-container">
+            <p id="hola-id" class="hola-class">Hola world</p>
+            <p class="hello-class again-class">Hello World</p>
+            <p class="hello-class active">Hello again world</p>
+            <div class="paragraph-contaier">hmm</div>
+        </div>
+        <p class="outside-class">I'm outside</p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,377 @@
+body {
+  background-color: rgb(5, 1, 27);
+  color: aliceblue;
+  font-family: sans-serif;
+}
+.header {
+  background-color: rgb(5, 1, 27);
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid rgb(58, 58, 63);
+}
+.container1 {
+  width: 60%;
+  height: 100%;
+  font-size: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+.header-part1 {
+  color: green;
+  font-size: 25px;
+}
+.header-phone {
+  width: 170px;
+  height: 48px;
+  background-color: green;
+  border-radius: 30px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.header-phone:hover {
+  color: aliceblue;
+  background-color: rgb(51, 50, 82);
+}
+main {
+  width: 60%;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 50px;
+  gap: 10px;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+.head-part1 {
+  width: 40%;
+}
+.head-part1 h1 {
+  font-size: 70px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.head-part1 p {
+  font-size: 18px;
+}
+.head-pass {
+  width: 200px;
+  height: 48px;
+  background-color: green;
+  border: 1px green;
+  border-radius: 30px;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 40px;
+  color: black;
+}
+.head-pass:hover {
+  color: aliceblue;
+  background-color: rgb(51, 50, 82);
+}
+.head-img {
+  width: 45%;
+  align-items: center;
+}
+.image-ani {
+  position: relative;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes move {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 28px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+.figures {
+  display: flex;
+  gap: 2.7%;
+}
+.figure {
+  width: 23%;
+  height: 220px;
+  border-radius: 5px;
+  background-color: rgb(42, 38, 65);
+  text-align: center;
+  align-items: center;
+}
+.figure h2 {
+  color: green;
+  font-size: 34px;
+  font-family: Verdana, sans-serif;
+}
+.figure p {
+  font-size: 25px;
+  font-family: Verdana;
+}
+bout-img {
+  width: 48%;
+}
+.about-info {
+  width: 50%;
+  gap: 25px;
+}
+.about-title1 {
+  width: 170px;
+  height: 35px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  background-color: rgba(73, 73, 73, 0.5);
+  color: green;
+  font-size: 15px;
+  font-family: Verdana;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-title2 {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.aboutinfor {
+  font-size: 20px;
+}
+.about-info h3 {
+  width: 250px;
+  height: 50px;
+  background-color: green;
+  border-radius: 30px;
+  margin-top: 25px;
+  text-align: center;
+  padding: 5px;
+}
+
+.symptom-info {
+  width: 45%;
+}
+.symptominfor {
+  font-size: 20px;
+}
+.symptoms-pass {
+  width: 220px;
+  height: 50px;
+  background-color: green;
+  border-radius: 30px;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 40px;
+  color: black;
+}
+.detail {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+.symptom-info button {
+  width: 220px;
+  height: 50px;
+  background-color: green;
+  border-radius: 40%;
+  margin-top: 25px;
+}
+.symptom-img {
+  width: 48%;
+}
+.threat {
+  margin-top: 140px;
+  margin-bottom: 140px;
+  text-align: center;
+}
+.threat-title {
+  margin: auto;
+}
+.threat-info {
+  font-size: 20px;
+}
+.threat-info img {
+  height: 50%;
+  width: 100%;
+}
+.spread {
+  display: flex;
+}
+.spread-img {
+  width: 480px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.spread-image {
+  width: 220px;
+  height: 220px;
+  background-color: rgb(51, 50, 82);
+  border-radius: 5px;
+  margin-bottom: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s;
+}
+.spread-image:hover {
+  transform: rotateZ(3deg);
+}
+.spread-image img {
+  width: 100px;
+}
+.spread-info {
+  width: 500px;
+}
+.spread-infor {
+  font-size: 20px;
+}
+.spread-info button {
+  width: 220px;
+  height: 50px;
+  background-color: green;
+  border-radius: 40%;
+  margin-top: 25px;
+}
+.prevention {
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+.pre-title {
+  text-align: center;
+}
+.title-3 {
+  width: 80%;
+  margin: auto;
+  font-size: 18px;
+}
+.pre-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.pre-infor {
+  width: 50%;
+  gap: 15px;
+}
+.pre-infor-title {
+  font-size: 30px;
+}
+.pre-detail {
+  display: flex;
+  gap: 20px;
+  width: 90%;
+  height: 140px;
+  background-color: rgb(51, 50, 82);
+  border-radius: 7px;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.pre-detail img {
+  height: 88px;
+  background-color: rgb(96, 95, 158);
+  border-radius: 7px;
+  margin-left: 20px;
+}
+.pre-text {
+  width: 340px;
+  align-content: center;
+}
+.News {
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+.newsfeed {
+  display: flex;
+  justify-content: space-between;
+}
+.news-info {
+  width: 300px;
+}
+.news-info img {
+  height: 220px;
+  border-radius: 7px;
+}
+.news-title {
+  width: 125px;
+  height: 34px;
+  border-radius: 30px;
+  background-color: rgba(73, 73, 73, 0.5);
+  color: green;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test {
+  height: 420px;
+  background-color: rgb(51, 50, 82);
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+}
+.test-info {
+  margin: auto;
+  text-align: center;
+}
+.test-title {
+  margin-top: 90px;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.test-info-button {
+  width: 180px;
+  height: 60px;
+  border: 1px solid green;
+  background-color: rgb(51, 50, 82);
+  border-radius: 30px;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 40px;
+  color: black;
+  margin-right: 15px;
+  color: aliceblue;
+}
+.test-info-button:hover {
+  width: 180px;
+  height: 60px;
+  color: black;
+  background-color: green;
+  border: 1px solid rgb(51, 50, 82);
+}
+
+.information-list:hover {
+  color: rgb(125, 133, 139);
+  cursor: pointer;
+}
+.information1 {
+  width: 350px;
+}
+footer {
+  width: 100%;
+  height: 30px;
+  border-top: 1px solid rgb(58, 58, 63);
+}
+.footer-content {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around;
+}
